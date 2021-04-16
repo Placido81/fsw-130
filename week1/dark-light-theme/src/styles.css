@@ -1,0 +1,47 @@
+* {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    font-size: 30px;
+    font-family:BENTON SANS READING EDGE ;
+    text-shadow: 1px 1px 1px red;
+}
+button:hover{
+    color: firebrick;
+    
+}
+button {
+    padding: 30px;
+    border: none;
+    margin: 10px;
+    margin-top: 20%;
+    font-size: large;
+}
+
+.dark-theme {
+    background-color: black;
+    color: whitesmoke;
+    border-bottom: 3px solid red;
+}
+
+.light-theme {
+    background-color: whitesmoke;
+    color: black;
+    border-bottom: 3px solid red;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    line-height: 3px;   
+    text-decoration: underline; 
+}
