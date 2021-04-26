@@ -21,7 +21,8 @@ function ChangeContext() {
             <h1 className="Movename">The Movie Cinema</h1>
             <form>
                 <input className='text' type='text' name='name' onChange={changeName} placeholder='Enter Movie Name'/>
-                <input className='number' type='number' name='price' onChange={changePrice} placeholder='Enter Amount $'/>
+                <input className='price' type='number' name='price' onChange={changePrice} placeholder='Enter Amount $'/>
+               
                 <button className="button" onClick={changeValue}>Press Enter</button>
             </form>
         </div>
