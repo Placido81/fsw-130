@@ -1,0 +1,96 @@
+body {
+    background:#95AFBF;
+  }
+  
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  h1{
+      font-family: monospace;
+      font-size: 40px;
+      color: #C7D93D;
+      text-decoration-line: underline;
+  }
+  
+  .main_container {
+    background: transparent;
+    max-width: 600px;
+    width: 90%;
+    height: 500px;
+    margin: 30px auto;
+  }
+  
+  .clock {
+    width: 100%;
+    background: #fff;
+    margin: 30px auto;
+    position: relative;
+    top: 35%;
+    right: 5%;
+    border: 15px double #C7D93D;
+    border-radius: 30%;
+    box-shadow: -1px -2px 5px 5px #BFCDD9;
+  }
+  
+  
+  .timer {
+    padding: 60px 0px;
+    text-align: center;
+  }
+  .timer span{
+    background:#8C4242;
+    color: #fff;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 22px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 70px;
+  }
+  
+  .timer .timer-btn {
+    background: #fff;
+    margin-top: 30px;
+    margin-left: 5px;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 150px;
+    transition: background 1s;
+    cursor: pointer;
+  }
+  .timer .timer-btn-red{
+    border: 2px solid #8C4242;
+    color: #8C4242;
+  }
+  .timer .timer-btn-yel{
+    border: 2px solid #FFC900;
+    color: #FFC900;
+  }
+  
+  .timer .timer-btn-gre{
+    border: 5px solid #8C4242;
+    color: #98D936;
+    border-radius: 50%;
+    
+    
+
+  }
+  .timer .timer-btn-red:hover {
+    background: #8C4242;
+    border: 2px solid #8C4242;
+    color: #D8E8F2;
+  }
+  .timer .timer-btn-yel:hover {
+    background: #FFC900;
+    border: 2px solid #FFC900;
+    color: #D8E8F2;
+  }
+  .timer .timer-btn-gre:hover {
+    background: #98D936;
+    border: 2px solid #98D936;
+    color: #D8E8F2;
+  }
