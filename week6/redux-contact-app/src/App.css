@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 5px;
+  
+}
+body{
+ background-color: #184059;
+ 
+}
+hr{
+  width: 75%;
+  margin-left: 10%;
+}
+.container{
+  margin-top: 5%;
+}
+
+.form-control{ 
+  margin-left: 39%;
+  width:15%;
+  margin-top: 2%;
+  background-color: #d02718 ;
+  color: #E0F252;
+  outline-color: #ebe573;
+  
+}
+h1{
+  font-size: 75px;
+  color:#BF7B3F;
+  text-align: center;
+  text-shadow: 1px 1px 1px #D7D7D9;
+  letter-spacing: 4px;
+  opacity: 0.9;
+  
+}
+h3{
+  color:#5D8AA6;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #D7D7D9;
+  margin-top: 3%;
+  letter-spacing: 4px;
+  margin-left: -5%;
+}
+.btn-success{
+  margin-left: 43%;
+  margin-top: 6%;
+  padding: 15px;
+  box-shadow:inset -1px 1px 0px 0px #f5978e;
+	background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+	background-color:#f24537;
+	border-radius:6px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:23px;
+	font-weight:bold;
+	padding:6px 39px;
+	text-decoration:none;
+	text-shadow:1px 1px 1px #ebe573;
+}
+.btn-success:hover{
+  background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+	background-color:#c62d1f;
+}
+.btn-success:active{
+  position:relative;
+	top:1px;
+}
+.list-group{ 
+  margin-left: 40%;
+}
+.list-group-item{
+color:#D7D7D9;
+font-size: 27px;
+text-shadow:1px 1px 1px #ebe573;
+}
+.remove:hover{ 
+  background-color:#E0F252;
+  color:#f24537;
+}
+.remove{
+  color:#BF7B3F;
+  border-radius: 13%;
+  font-size: 14px;
+  box-shadow: 1px 1px  1px #D7D7D9;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
