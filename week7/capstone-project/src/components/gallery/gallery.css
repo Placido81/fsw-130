@@ -1,0 +1,60 @@
+#galleryHeading :hover{ 
+  letter-spacing: 5px;
+}
+#galleryHeading {
+    
+    margin-left: 10%;
+    font-size: 65px;
+   border-bottom: 8px ridge #dc2f02;
+    width: 80%;
+    line-height: 0.9;
+    padding: 20px;
+    font-family: 'Indie Flower', Indie Flower;
+    text-transform: uppercase;
+    background: radial-gradient(
+      circle farthest-corner at center center,
+      #22c1c3,
+      #332dfd,
+      #dc2f02
+    ) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    justify-content: center;
+    align-content: center;
+    grid-gap: 70px;
+  }
+  .grid img {
+    width: 400px;
+    height: 300px;
+  }
+  
+  #galleryPictures:hover{
+    transform: rotate(360deg);
+    border-radius: 20%;
+    transition: transform 1280ms ease-in-out;
+  }
+  #galleryPictures {
+    
+    border: 15px ridge whitesmoke;
+    inset: 60px;
+
+    filter: drop-shadow(  0 0 0.56rem  whitesmoke);
+
+  }
+  .peace{
+    font-size:62px;
+    background: radial-gradient(
+      circle farthest-corner at center center,
+      #22c1c3,
+      #aecdc2,
+      #dc2f02
+    ) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  }

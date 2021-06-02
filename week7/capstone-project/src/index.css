@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
+body {
+  background-color: #8d99ae;
+  text-align: center;
+  font-family: 'Mono', ;
+  border: 18px ridge  #d90429;
+}
+
+#logo {
+  height: 60px;
+  width: 60px;
+}
+
+
+#link {
+  text-decoration: none;
+  color:  #0aefff;
+  position: relative;
+  top: 15px;
+  font-size: 1.4em;
+}
+#link:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: 1.5em;
+  color: #ff9b71;
+  text-shadow: 2px 2px 2px floralwhite;
+}
+
+
+#introText {
+  font-weight: bolder;
+  position: relative;
+  left: 40%;
+ 
+}
+#listItem {
+  display: inline;
+  justify-content: space-evenly;
+  font-size: 1.9em;    
+  list-style-type: none;
+  left: 0;
+  right: 0;
+  margin: 10px;
+  line-height: 1.5;
+  
+}
+
+
+
+

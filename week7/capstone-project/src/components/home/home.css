@@ -1,0 +1,45 @@
+#girlpic:hover{
+  transform: rotate(360deg);
+  border-radius: 20%;
+  transition: transform 1280ms ease-in-out;
+}
+#girlpic{
+    display: absolute;
+     
+     margin-left: 0%;
+     margin-top: 3%;
+     border: 5px ridge #d90429;
+     opacity: 0.8;
+     box-shadow: 0 1px 8px 8px #ced4da;
+     
+     background-clip: border-box;
+  background-origin: border-box;
+  filter: drop-shadow(  0 0 0.10rem  #FFF3B0);
+  background-repeat: no-repeat;
+  padding: 10px;
+     
+   }
+
+   #layer {
+    margin-left: 15%;
+    border: 10px ridge #d63031;
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      filter: drop-shadow(  0 0 0.10rem  #FFF3B0);
+      
+    width: 70%;
+    height: 800px;
+  
+    background: radial-gradient(
+      circle farthest-corner at center center,
+      #a2d2ff,
+      #dc2f02,
+      white,
+      #d63031,
+      #3742fa,
+      #0d3b66
+    ) no-repeat;
+    padding: 12px;
+    box-shadow: 0 1px 8px 8px #ced4da;
+    filter: drop-shadow(  0 0 0.10rem  #FFF3B0);
+    }

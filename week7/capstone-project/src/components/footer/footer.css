@@ -1,0 +1,71 @@
+#address {
+  
+  font-family: 'Space Mono', monospace;
+    margin-top: 60px;
+    background: radial-gradient(
+      circle farthest-corner at center center,
+   #f4f1de,
+      #06d6a0,
+      #fb5607,
+      #d90429
+    
+    ) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-size: 35px;
+  }
+  #footer {
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: middle;
+    font-family: 'Indie Flower', monospace;
+    
+    background: radial-gradient(
+      circle farthest-corner at center center,
+       #06d6a0,
+      #fb5607,
+      #f4f1de,
+      #d90429,
+      #f4f1de
+    ) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-size: 28px;
+  }
+  .facebook{
+    
+    font-size: 32px;
+    color: #2414ff;
+   
+    
+  }
+  
+  .twitter{
+    
+    color: dodgerblue;
+    display: flex;
+    margin-left: 0%;
+    font-size: 32px;
+    
+  }
+  .instagram{
+    font-size: 32px;
+    background: radial-gradient(
+      circle farthest-corner at center center,
+       #06d6a0,
+      #fb5607,
+      #f4f1de,
+      #d90429,
+      #f4f1de,
+      #2414ff
+    ) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .icons{
+    size: large;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    color: dodgerblue;
+  }
